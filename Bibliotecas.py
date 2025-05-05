@@ -30,4 +30,10 @@ def posNegNeutro(num):
 
 def Soma(num1,num2):
     resultado = num1+num2
+    print(f"{num1} + {num2} = {resultado}")
+
+def Soma2(*todosnumeros):
+    resultado=0
+    for i in range(len(todosnumeros)):
+        resultado+=todosnumeros[i]
     print(resultado)
