@@ -1,3 +1,3 @@
-from Bibliotecas import contador
+from Bibliotecas import contadorVogais
 
-contador(input("Digite o seu texto: "))
+contadorVogais(input("Digite o seu texto: "))
