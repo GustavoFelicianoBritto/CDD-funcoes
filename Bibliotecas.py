@@ -43,8 +43,30 @@ def textoQteInverter(texto):
     textLen = len(texto)
 
     for i in range(textLen-1,-1,-1):
-        print(texto[i],end=" ")
+        print(texto[i],end="")
     print()
     print(textLen)
+
+def verificarRepeticao(lista):
+    novaLista=[]
+    for i in lista:
+        letterAp = 0
+        for j in range(0,len(lista)):
+            if i == lista[j]:
+                letterAp+=1
+        if letterAp==1:
+            novaLista.append(i)
+    print(novaLista)
+
+def novaVerificacao(lista):
+    novalista=[]
+    for i in lista:
+        if i not in novalista:
+            novalista.append(i)
+    print(novalista)
+
+
+
+
 
 
