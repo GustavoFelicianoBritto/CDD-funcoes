@@ -37,3 +37,14 @@ def Soma2(*todosnumeros):
     for i in range(len(todosnumeros)):
         resultado+=todosnumeros[i]
     print(resultado)
+
+def textoQteInverter(texto):
+
+    textLen = len(texto)
+
+    for i in range(textLen-1,-1,-1):
+        print(texto[i],end=" ")
+    print()
+    print(textLen)
+
+
