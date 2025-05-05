@@ -28,5 +28,6 @@ def posNegNeutro(num):
     else:
         return "P"
 
-
-
+def Soma(num1,num2):
+    resultado = num1+num2
+    print(resultado)
