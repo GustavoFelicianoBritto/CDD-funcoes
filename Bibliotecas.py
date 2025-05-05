@@ -14,3 +14,9 @@ def contadorVogais(texto):
         if i in vogais:
             qtdVogais+=1
     print(f"A quantidade de letras do texto é: {qtdVogais}")
+
+def estoque(nome,quantidade,valor):
+    preco=quantidade*valor
+    print(f"O valor total de {nome} no estoque é: {preco}")
+
+
