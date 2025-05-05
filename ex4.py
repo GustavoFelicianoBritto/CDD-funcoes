@@ -1,3 +1,4 @@
 from Bibliotecas import estoque
 
-estoque("banana",4,5.00)
+result = estoque("banana",4,3.00)
+print(result[0],result[1])

@@ -17,6 +17,16 @@ def contadorVogais(texto):
 
 def estoque(nome,quantidade,valor):
     preco=quantidade*valor
-    print(f"O valor total de {nome} no estoque é: {preco}")
+    return nome,preco
+
+def posNegNeutro(num):
+
+    if num==0:
+        return "Z"
+    elif num<0:
+        return "N"
+    else:
+        return "P"
+
 
 
