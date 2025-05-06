@@ -1,4 +1,4 @@
-from Bibliotecas import imprimirNome
+from bibliotecas import imprimirNome
 
 imprimirNome("Mariana")
 imprimirNome("Victor")

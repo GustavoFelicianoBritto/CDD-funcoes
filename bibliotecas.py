@@ -1,3 +1,9 @@
+import os
+
+def limpar():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
 def imprimirNome(nome):
     print(f"olá, {nome}")
 
@@ -17,7 +23,7 @@ def contadorVogais(texto):
 
 def estoque(nome,quantidade,valor):
     preco=quantidade*valor
-    return nome,preco
+    return preco
 
 def posNegNeutro(num):
 

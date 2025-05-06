@@ -1,4 +1,4 @@
-from Bibliotecas import Soma, Soma2
+from bibliotecas import Soma, Soma2
 
 Soma(54, 34)
 

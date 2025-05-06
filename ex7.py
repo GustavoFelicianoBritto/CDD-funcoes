@@ -1,3 +1,3 @@
-from Bibliotecas import textoQteInverter
+from bibliotecas import textoQteInverter
 
 textoQteInverter("Olá, tudo bem?")

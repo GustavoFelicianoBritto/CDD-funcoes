@@ -1,3 +1,3 @@
-from Bibliotecas import posNegNeutro
+from bibliotecas import posNegNeutro
 
 print(posNegNeutro(1))
